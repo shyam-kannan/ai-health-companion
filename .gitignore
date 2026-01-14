@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/raw/*
+data/processed/*.pkl
+data/processed/*.json
+*.db
+*.log
+chroma_data/
+
+# Node
+node_modules/
+.npm
